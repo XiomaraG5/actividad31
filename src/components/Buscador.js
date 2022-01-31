@@ -15,7 +15,7 @@ export const Buscador = ()=>{
      console.log(pelicula);
     
     return(
-        <input type='text' name='pelicula' value={pelicula} onChange={handleChange}>
+        <input type='text' name='pelicula'  onChange={handleChange}>
         </input>
     )
 }
