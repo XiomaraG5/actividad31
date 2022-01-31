@@ -1,6 +1,5 @@
 import React from 'react';
-import { useEffect, useState } from 'react/cjs/react.development';
-import { endpoint } from '../helpers/Url';
+import {  useState } from 'react/cjs/react.development';
 
 export const Buscador = ()=>{
 
@@ -9,7 +8,8 @@ export const Buscador = ()=>{
    
     const handleChange = ({target}) =>{
         setPelicula({
-            [target.name]:target.value
+            
+            pelicula:target.value
         })
     }
      console.log(pelicula);

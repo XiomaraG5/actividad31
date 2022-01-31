@@ -1,5 +1,4 @@
-import React from 'react';
-import { Peliculas } from '../containers/Peliculas';
+
 
 
 export const GetData = async (url,setPelicula) =>{
