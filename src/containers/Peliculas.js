@@ -21,7 +21,7 @@ export const Peliculas = ()=>{
     console.log(querystring.parse(location.search));
     const {q = '' } = querystring.parse(location.search)
     console.log(q);
-    const [values, handleInputChange, resetForm] = useForm({
+    const [values, handleInputChange] = useForm({
             searchText: q
         })
         const {searchText} = values
