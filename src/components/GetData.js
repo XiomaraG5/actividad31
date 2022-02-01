@@ -9,3 +9,4 @@ export const GetData = async (url,setPelicula) =>{
 
     
 }
+ 
