@@ -5,6 +5,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3%;
+    padding: 5%;
 
 }
 
@@ -35,9 +36,13 @@ body{
         font-size: 1.5rem;
         font-weight: 700;
         font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        color: rgb(202, 116, 58);
+        color: rgb(240, 183, 145);
     }
     
+}
+.bucador{
+    background-color: rgb(197, 185, 202);
+    p{color: #0d0d0d;}
 }
 @media (max-width: 680px) {
     .principal{

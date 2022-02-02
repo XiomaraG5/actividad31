@@ -6,6 +6,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 3%;
+  padding: 5%;
 }
 
 .contenedor {
@@ -35,7 +36,14 @@ body {
   font-size: 1.5rem;
   font-weight: 700;
   font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: #ca743a;
+  color: #f0b791;
+}
+
+.bucador {
+  background-color: #c5b9ca;
+}
+.bucador p {
+  color: #0d0d0d;
 }
 
 @media (max-width: 680px) {
